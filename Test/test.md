@@ -16,6 +16,8 @@ This project will produce software to calculate the average length of sentences 
 		<td>QA</td>
 		<td>Quality Assurance</td>
 	</tr>
+</tbody>
+</table>
 
 ## 2 Process Description
 
@@ -24,64 +26,181 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 
 ### 2.2 Process Activities
 
-* <b>Activity:</b> Project Kickoff
-* <b>Description:</b> Meeting of all the team members to discuss the project, define the roles, and establish timelines.
-* <b>Entrance criteria:</b> Team watched instruction videos and reviewed repository documents.
-* <b>Exit criteria:</b> No document deliverable.
-
-* <b>Activity:</b> Develop Process Plan
-* <b>Description:</b> Document project activities required to meet client requirements.
-* <b>Entrance criteria:</b> Project Kickoff meeting completed.
-* <b>Exit criteria:</b> Project process plan that has been reviewed and approved by all project members.
-
-* <b>Activity:</b> Document Software Requirements
-* <b>Description:</b> Document requirements as previously gathered. Produce a document detailling what the client requires in the software deliverable.
-* <b>Entrance criteria:</b> Requirements gathering interview video and project kickoff meeting.
-* <b>Exit criteria:</b> Software Requirements Document that has been reviewed and approved by all project members. 
-
-* <b>Activity:</b> Develop Test Plan
-* <b>Description:</b> Develop a document that details what needs to be tested and how it will be tested.
-* <b>Entrance criteria:</b> Software Requirements Document
-* <b>Exit criteria:</b> Test Plan Document that has been reviewed and approved by all project members. 
-
-* <b>Activity:</b> Design Software
-* <b>Description:</b> Design software to meet client requirements.
-* <b>Entrance criteria:</b> Software Requirements Document
-* <b>Exit criteria:</b> Design Document that has been reviewed and approved by available project members.
-
-*  <b>Activity:</b> Develop Software
-* <b>Description:</b> Develop software based on client requirements.
-* <b>Entrance criteria:</b> Software Requirements Document
-* <b>Exit criteria:</b> Completed software that has been unit tested.
-
-*  <b>Activity:</b> Create User Documentation
-* <b>Description:</b> Create a document to explain to users how to operate the software.
-* <b>Entrance criteria:</b> Software Requirements Document, Completed Software
-* <b>Exit criteria:</b> User Documentation that has been reviewed and approved by available project members.
-
-* <b>Activity:</b> Test Software
-* <b>Description:</b> Develop a document that details what needs to be tested and how it will be tested.
-* <b>Entrance criteria:</b> Test Plan Document, Completed Software
-* <b>Exit criteria:</b> Test Plan Document with test case results entered. It will be complete when all the defects have been resolved. 
-
-* <b>Activity:</b> Deliver Software
-* <b>Description:</b> Deliver to customer Completed Software and User Documentation
-* <b>Entrance criteria:</b> Completed Software, Completed Test Plan Document with all defects noted and resolved, User Documentation
-* <b>Exit criteria:</b> No document deliverable.
-
-* <b>Activity:</b> Audit Project
-* <b>Description:</b> An independent quality organizationwill audit the project for quality of document deliverables, productivity, and quality of final software deliverable.
-* <b>Entrance criteria:</b> Completed Software, Completed Test Plan Document with all defects noted and resolved, User Documentation, team member time logs.
-* <b>Exit criteria:</b> Process Assessment Document with recommendations for improvement.
+<table>
+<tbody>
+	<tr>
+		<td><b>Activity:</b></td>
+		<td>Project Kickoff</td>
+	</tr>
+	<tr>		
+		<td><b>Description:</b></td> 
+		<td>Meeting of all the team members to discuss the project, define the roles, and establish timelines.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Team watched instruction videos and reviewed repository documents.</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>No document deliverable.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Develop Process Plan</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Document project activities required to meet client requirements.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Project Kickoff meeting completed.</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>Project process plan that has been reviewed and approved by all project members.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Document Software Requirements</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Document requirements as previously gathered. Produce a document detailling what the client requires in the software deliverable.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Requirements gathering interview video and project kickoff meeting.</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>Software Requirements Document that has been reviewed and approved by all project members.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Develop Test Plan</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Develop a document that details what needs to be tested and how it will be tested.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Software Requirements Document</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>Test Plan Document that has been reviewed and approved by all project members.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Design Software</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Design software to meet client requirements.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Software Requirements Document</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>Design Document that has been reviewed and approved by available project members.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Develop Software</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Develop software based on client requirements.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Software Requirements Document</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>Completed software that has been unit tested.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Create User Documentation</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Create a document to explain to users how to operate the software.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Software Requirements Document, Completed Software</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>User Documentation that has been reviewed and approved by available project members.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Test Software</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Develop a document that details what needs to be tested and how it will be tested.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Test Plan Document, Completed Software</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>Test Plan Document with test case results entered. It will be complete when all the defects have been resolved.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Deliver Software</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>Deliver to customer Completed Software and User Documentation.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Completed Software, Completed Test Plan Document with all defects noted and resolved, User Documentation</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>No document deliverable.</td>
+	</tr>
+	<tr>
+		<td><b>Activity:</b></td> 
+		<td>Audit Project</td>
+	</tr>
+	<tr>
+		<td><b>Description:</b></td> 
+		<td>An independent quality organizationwill audit the project for quality of document deliverables, productivity, and quality of final software deliverable.</td>
+	</tr>
+	<tr>
+		<td><b>Entrance criteria:</b></td> 
+		<td>Completed Software, Completed Test Plan Document with all defects noted and resolved, User Documentation, team member time logs.</td>
+	</tr>
+	<tr>
+		<td><b>Exit criteria:</b></td> 
+		<td>Process Assessment Document with recommendations for improvement.</td>
+	</tr>
+</tbody>
+</table>
 
 
 ## 3 Roles
 
 ### 3.1 Team member names
-Annette Spyker
-David Faour
-James Jennings
-Tamara Wright Muccia
+<ul>
+<li>Annette Spyker</li>
+<li>David Faour</li>
+<li>James Jennings</li>
+<li>Tamara Wright Muccia</li>
+</ul>
 
 ### 3.2 Roles Table
 <table>
@@ -124,14 +243,13 @@ Tamara Wright Muccia
 	</tr>
 	<tr>
 		<td>Auditor</td>
-		<td>Verify client requirements have been met and that proper methods have 		been used.</td>
+		<td>Verify client requirements have been met and that proper methods have been used.</td>
 	</tr>
 
 </tbody>
 </table>
 
 ### 3.3 Role assignment table
-Provide a table showing which team member(s) has which role(s).
 
 <table>
 <tbody>
@@ -191,7 +309,6 @@ Provide a table showing which team member(s) has which role(s).
 ## 4 Estimates
 
 ### 4.1 Effort Estimate
-Provide estimates for the following metrics:
 * Effort hours: We anticipate 40 team-member hours will be spent completing this project.
 * Lines of code: We anticipate 100 or fewer lines of source code will be included in the final product.
 * Defects: We expect to find two or fewer defects while testing our code.
