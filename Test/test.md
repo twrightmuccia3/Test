@@ -28,9 +28,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 
 <table>
 <tbody>
-	<tr>
-		<td><b>Activity:</b></td>
-		<td>Project Kickoff</td>
+	<tr width=100%>
+		<td width=18%><b>Activity:</b></td>
+		<td width=82%>Project Kickoff</td>
 	</tr>
 	<tr>		
 		<td><b>Description:</b></td> 
@@ -44,7 +44,10 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>No document deliverable.</td>
 	</tr>
-	<tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
 		<td><b>Activity:</b></td> 
 		<td>Develop Process Plan</td>
 	</tr>
@@ -60,6 +63,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>Project process plan that has been reviewed and approved by all project members.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Document Software Requirements</td>
@@ -76,6 +82,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>Software Requirements Document that has been reviewed and approved by all project members.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Develop Test Plan</td>
@@ -92,6 +101,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>Test Plan Document that has been reviewed and approved by all project members.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Design Software</td>
@@ -108,6 +120,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>Design Document that has been reviewed and approved by available project members.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Develop Software</td>
@@ -124,6 +139,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>Completed software that has been unit tested.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Create User Documentation</td>
@@ -140,6 +158,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>User Documentation that has been reviewed and approved by available project members.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Test Software</td>
@@ -156,6 +177,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>Test Plan Document with test case results entered. It will be complete when all the defects have been resolved.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Deliver Software</td>
@@ -172,6 +196,9 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 		<td><b>Exit criteria:</b></td> 
 		<td>No document deliverable.</td>
 	</tr>
+        <tr class="blank_row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
 	<tr>
 		<td><b>Activity:</b></td> 
 		<td>Audit Project</td>
@@ -317,5 +344,5 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 
 Gant Chart of initial project schedule with critical path marked by cross hatching:
  
-
+![chart](Project1Team13.jpg)
 
