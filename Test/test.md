@@ -1,227 +1,13 @@
-# Process Plan Document – Team 13
+# Process Assessment Document - Team 13
+## Premise
+This Process Assessment is being prepared as part of a project audit by an independent quality organization. The purpose of this audit is to assess the effectiveness of the software development team that developed a Java project for Professor Lauren . The software calculates the average sentence length in student papers. In cooperation with this Audit the team has submitted the following:
+<ul>
+<li>The team's deliverable documents and source code</li>
+<li>The team's defect log</li>
+<li>The team's time record</li>
+</ul>
 
-## 1 Introduction
-This project will produce software to calculate the average length of sentences in student papers. This software is being produced for Professor Lauren at her request. 
-* Software Name: CheckSentenceLength
-* This software will return the average number of words per sentence within a student's paper. 
-
-### 1.1 Definitions and Acronyms
-<table>
-<tbody>
-	<tr>
-		<td><b>Acronym</b></td>
-		<td><b>Definition</b></td>
-	</tr>
-	<tr>
-		<td>QA</td>
-		<td>Quality Assurance</td>
-	</tr>
-</tbody>
-</table>
-
-## 2 Process Description
-
-### 2.1 Project Lifecycle
-This project will follow the waterfall lifecyle methodology where possible. Due to travel plans of the Business Analyst the Requirements Documentation will be completed in parallel with Process documentation. This should not be an issue as 1) requirements gathering was performed prior to project kickoff by different resources and 2) project process and schedule was defined during the project kickoff. 
-
-### 2.2 Process Activities
-
-<table>
-<tbody>
-	<tr width=100%>
-		<td width=18%><b>Activity:</b></td>
-		<td width=82%>Project Kickoff</td>
-	</tr>
-	<tr>		
-		<td><b>Description:</b></td> 
-		<td>Meeting of all the team members to discuss the project, define the roles, and establish timelines.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Team watched instruction videos and reviewed repository documents.</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>No document deliverable.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-        <tr>
-		<td><b>Activity:</b></td> 
-		<td>Develop Process Plan</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Document project activities required to meet client requirements.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Project Kickoff meeting completed.</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>Project process plan that has been reviewed and approved by all project members.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Document Software Requirements</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Document requirements as previously gathered. Produce a document detailling what the client requires in the software deliverable.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Requirements gathering interview video and project kickoff meeting.</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>Software Requirements Document that has been reviewed and approved by all project members.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Develop Test Plan</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Develop a document that details what needs to be tested and how it will be tested.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Software Requirements Document</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>Test Plan Document that has been reviewed and approved by all project members.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Design Software</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Design software to meet client requirements.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Software Requirements Document</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>Design Document that has been reviewed and approved by available project members.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Develop Software</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Develop software based on client requirements.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Software Requirements Document</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>Completed software that has been unit tested.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Create User Documentation</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Create a document to explain to users how to operate the software.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Software Requirements Document, Completed Software</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>User Documentation that has been reviewed and approved by available project members.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Test Software</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Develop a document that details what needs to be tested and how it will be tested.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Test Plan Document, Completed Software</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>Test Plan Document with test case results entered. It will be complete when all the defects have been resolved.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Deliver Software</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>Deliver to customer Completed Software and User Documentation.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Completed Software, Completed Test Plan Document with all defects noted and resolved, User Documentation</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>No document deliverable.</td>
-	</tr>
-        <tr class="blank_row">
-            <td colspan="2">&nbsp;</td>
-        </tr>
-	<tr>
-		<td><b>Activity:</b></td> 
-		<td>Audit Project</td>
-	</tr>
-	<tr>
-		<td><b>Description:</b></td> 
-		<td>An independent quality organizationwill audit the project for quality of document deliverables, productivity, and quality of final software deliverable.</td>
-	</tr>
-	<tr>
-		<td><b>Entrance criteria:</b></td> 
-		<td>Completed Software, Completed Test Plan Document with all defects noted and resolved, User Documentation, team member time logs.</td>
-	</tr>
-	<tr>
-		<td><b>Exit criteria:</b></td> 
-		<td>Process Assessment Document with recommendations for improvement.</td>
-	</tr>
-</tbody>
-</table>
-
-
-## 3 Roles
-
-### 3.1 Team member names
+## 1 Team members
 <ul>
 <li>Annette Spyker</li>
 <li>David Faour</li>
@@ -229,120 +15,227 @@ This project will follow the waterfall lifecyle methodology where possible. Due 
 <li>Tamara Wright Muccia</li>
 </ul>
 
-### 3.2 Roles Table
+## 2 Process used
+This project was planned to follow the waterfall lifecyle methodology with slight modification. 
+
+Planned Modifications from Waterfall:
+<ol>
+<li>The Requirements Gathering interview was completed prior to project kickoff by an outside entity. 
+<li>Due to travel plans of the Business Analyst the Requirements Documentation will be completed in parallel with Process documentation. 
+</ol>
+
+It was anticipated this should not present a problem as project process and schedule were defined during the project kickoff and only needed to be documented. 
+
+... need to fill in how we did against this ...
+
+## 3 Activity assessment: for each activity the team used, provide:
+
 <table>
 <tbody>
-	<tr>
-		<td><b>Role</b></td>
-		<td><b>Responsibility</b></td>
+	<tr width=100%>
+		<td width=18% align="left"><b>Activity</b></td>
+		<td width=32% align="right"><b>Quality Score out of 100</b></td>
+		<td width=50% align="left"><b>Rationale</b></td>
 	</tr>
 	<tr>
-		<td>Client</td>
-		<td>Provide software requirements. Acceptance of final product.</td>
+		<td>Project Kickoff</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
+	</tr>
+        <tr>
+		<td>Develop Process Plan</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
 	<tr>
-		<td>Project Manager</td>
-		<td>Schedule and monitor software creation activities. Maintain schedule 			and process documents.</td>
+		<td>Document Software Requirements</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
 	<tr>
-		<td>Business Analyst</td>
-		<td>Document software requirements.</td>
+		<td>Develop Test Plan</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
 	<tr>
-		<td>Quality Assurance Analyst</td>
-		<td>Design test plan.</td>
+		<td>Design Software</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
-	<tr>
-		<td>Software Architect</td>
-		<td>Design software.</td>
+ 	<tr>
+		<td>Develop Software</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
-	<tr>
-		<td>Sotware Engineer</td>
-		<td>Write software code. Perform unit testing.</td>
+        <tr>
+		<td>Create User Documentation</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
-	<tr>
-		<td>Technical Writer</td>
-		<td>Write user documentation.</td>
+        <tr>
+		<td>Test Software</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
-	<tr>
-		<td>Quality Assurance Tester</td>
-		<td>Execute test plan.</td>
+        <tr>
+		<td>Deliver Software</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
-	<tr>
-		<td>Auditor</td>
-		<td>Verify client requirements have been met and that proper methods have been used.</td>
+        <tr>
+		<td>Audit Project</td>
+		<td>...0-100...</td>
+		<td>...why that score...</td>
 	</tr>
 
 </tbody>
 </table>
 
-### 3.3 Role assignment table
+## 4 Productivity assessment
 
+###Total time spent
 <table>
 <tbody>
-	<tr>
-		<td><b>Role</b></td>
-		<td><b>Team member(s)</b></td>
+	<tr width=50%>
+		<td width=18% align="left"><b>Activity</b></td>
+		<td width=32% align="right"><b>Time Logged</b></td>
 	</tr>
+        <tr>
+		<td>Develop Process Plan</td>
+		<td>4.00 hours</td>
+	</tr>
+	<tr>
+		<td>Document Software Requirements</td>
+		<td>2.50 hours</td>
+	</tr>
+	<tr>
+		<td>Develop Test Plan</td>
+		<td>1.75 hours</td>
+	</tr>
+	<tr>
+		<td>Design Software</td>
+		<td>1.00 hours</td>
+	</tr>
+	<tr>
+		<td>Develop Software</td>
+		<td>4.0 hours</td>
+	</tr>
+	<tr>
+		<td>Create User Documentation</td>
+		<td>1.25 hours</td>
+	</tr>
+	<tr>
+		<td>Test Software</td>
+		<td>2.00 hours</td>
+	</tr>
+	<tr>
+		<td>Deliver Software</td>
+		<td>Milestone Only - Not Applicable</td>
+	</tr>
+	<tr>
+		<td>Audit Project</td>
+		<td>3.50 hours</td>
+	</tr>
+	<tr>
+		<td align="right">Total Time</td>
+		<td>20.00 hours</td>
+	</tr>
+	<tr>
+		<td align="right">Projected Time</td>
+		<td>40.00 hours</td>
+	</tr>
+</tbody>
+</table>
+...Need to discuss actual vs projected and assess...
 
-	<tr>
-		<td>Client</td>
-		<td>Lauren</td>
+### Total lines of code in delivered product
+<table>
+<tbody>
+	<tr width=50%>
+		<td width=32% align="left"><b>File</b></td>
+		<td width=18% align="right"><b>Lines of Code</b></td>
 	</tr>
+        <tr>
+		<td>ARGUMENT_TYPE.java</td>
+		<td>14</td>
+	</tr>
+        <tr>
+		<td>AverageSentenceLength.java</td>
+		<td>140</td>
+	</tr>
+        <tr>
+		<td>SentenceLengthAverager.java</td>
+		<td>94</td>
+	</tr>
+	<tr>
+		<td align="right">Total Lines</td>
+		<td>248</td>
+	</tr>
+	<tr>
+		<td align="right">Projected Lines</td>
+		<td>100</td>
+	</tr>
+</tbody>
+</table>
+...Need to discuss actual vs projected and assess...
 
-	<tr>
-		<td>Project Manager</td>
-		<td>Tamara Wright Muccia.</td>
+### Total lines of user documentation
+<table>
+<tbody>
+	<tr width=50%>
+		<td width=32% align="left"><b>File</b></td>
+		<td width=18% align="right"><b>Lines of Documentation</b></td>
 	</tr>
+        <tr>
+		<td>UserDocumentation.md</td>
+		<td>28</td>
+	</tr>
+	<tr>
+		<td align="right">Total Lines</td>
+		<td>28</td>
+	</tr>
+</tbody>
+</table>
+...No projected estimate...
 
-	<tr>
-		<td>Business Analyst</td>
-		<td>David Faour</td>
-	</tr>
+### Productivity score: (0-100, with rationale for score)
+... Need to put something here ...
 
-	<tr>
-		<td>Quality Assurance Analyst</td>
-		<td>David Faour</td>
-	</tr>
 
-	<tr>
-		<td>Software Architect</td>
-		<td>Annette Spyker</td>
-	</tr>
-	
-	<tr>
-		<td>Sotware Engineer</td>
-		<td>Annette Spyker</td>
-	</tr>
-
-	<tr>
-		<td>Technical Writer</td>
-		<td>James Jennings</td>
-	</tr>
-
-	<tr>
-		<td>Quality Assurance Tester</td>
-		<td>James Jennings</td>
-	</tr>
-
-	<tr>
-		<td>Auditor</td>
-		<td>Tamara Wright Muccia</td>
-	</tr>
-
+## 5 Quality assessment
+<tbody>
+<table>
+<tr>
+	<td><b>Total number of test cases</b></td>
+	<td>5</td>
+</tr>
+<tr>
+	<td><b>Total number of defects found during testing<b></td>
+	<td>4</td>
+</tr>
+<tr>
+	<td><b>Total number of defects fixed</b></td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>Quality score out of 100</td>
+	<td>...0-100 ...</td>
+</tr>
+<tr>
+	<td width 100%>Rationale for score:</td>
+</tr>
+<tr>
+	<td width 100%>.. Need to fill in ..</td>
+</tr>
 </tbody>
 </table>
 
-## 4 Estimates
 
-### 4.1 Effort Estimate
-* Effort hours: We anticipate 40 team-member hours will be spent completing this project.
-* Lines of code: We anticipate 100 or fewer lines of source code will be included in the final product.
-* Defects: We expect to find two or fewer defects while testing our code.
+## 6 Recommendations:
+prioritized bullet list of recommendations on how to improve the team's software development process.
 
-### 4.2 Schedule
+## 7 Summary:
+One-paragraph summary of the assessment.
 
-Gant Chart of initial project schedule with critical path marked by cross hatching:
- 
-![chart](Project1Team13.jpg)
-
+## Caveat
+You are assessing your own team, so you have a conflict of interest: the more problems you detect with your team's process, the worse your team looks. That is why I have structured this exercise as if you were an independent team from a separate organization. It is your job to be objective. The TA and I will also be evaluating the development team's process. The closer your evaluation score is to ours, the better you will do on this exercise. So be critical but fair.
